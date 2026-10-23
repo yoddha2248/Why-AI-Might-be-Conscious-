@@ -1,6 +1,6 @@
 # Why AI Might Be Conscious — and Why No Test Can Yet Tell
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23589039.svg)](https://doi.org/10.5281/zenodo.23589039)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23589038.svg)](https://doi.org/10.5281/zenodo.23589038)
 
 **Code, results and essay: stress-testing self-model indicators of consciousness with cheats and outside observers.**
 
@@ -111,4 +111,4 @@ responsible for the content.
 ## License and citation
 
 Code: MIT (see `LICENSE`). The essay in `essay/` is © Ajay, 2026, and is not covered by the MIT licence.
-To cite, use DOI [10.5281/zenodo.23589039](https://doi.org/10.5281/zenodo.23589039) or see `CITATION.cff`.
+To cite, use DOI [10.5281/zenodo.23589038](https://doi.org/10.5281/zenodo.23589038) or see `CITATION.cff`.
