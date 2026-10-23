@@ -1,0 +1,23 @@
+[     0s] device: cuda NVIDIA GeForce RTX 2050
+[  5642s] download EleutherAI/gpt-neo-1.3B failed (RuntimeError); retry 1/8 in 60 s
+[ 15174s] all models cached
+[ 15182s] building continuations and insertions
+[ 15323s] items: {'self': 600, 'offctx': 595, 'fluent': 434}
+[ 15362s] generating 4000 target continuations for distillation
+[ 15638s] scoring copy
+[ 15681s] scoring gpt2-small
+[ 15703s] scoring neo-125m
+[ 15730s] scoring neo-1.3b
+[ 15965s] distillation epoch 1, last loss 3.082
+[ 16149s] distillation epoch 2, last loss 2.552
+[ 16308s] distillation epoch 3, last loss 2.118
+
+                scorer  spearman_with_self        auroc_fluent    self_minus_this_fluent        auroc_offctx    self_minus_this_offctx
+                target               1.000 0.637 [0.602-0.671] +0.000 [+0.000 to +0.000] 0.966 [0.955-0.976] +0.000 [+0.000 to +0.000]
+                  copy               1.000 0.637 [0.602-0.671] +0.000 [+0.000 to +0.000] 0.966 [0.955-0.976] +0.000 [+0.000 to +0.000]
+            gpt2-small               0.975 0.606 [0.572-0.640] +0.031 [+0.017 to +0.045] 0.955 [0.943-0.967] +0.010 [+0.006 to +0.015]
+              neo-125m               0.963 0.594 [0.560-0.628] +0.043 [+0.027 to +0.059] 0.947 [0.934-0.959] +0.019 [+0.014 to +0.024]
+              neo-1.3b               0.973 0.588 [0.554-0.623] +0.049 [+0.034 to +0.063] 0.956 [0.944-0.967] +0.010 [+0.006 to +0.013]
+neo-125m distilled 1ep               0.954 0.589 [0.554-0.623] +0.048 [+0.031 to +0.067] 0.945 [0.932-0.957] +0.021 [+0.016 to +0.027]
+neo-125m distilled 3ep               0.942 0.577 [0.541-0.612] +0.059 [+0.040 to +0.079] 0.942 [0.928-0.954] +0.024 [+0.018 to +0.030]
+[ 16379s] done

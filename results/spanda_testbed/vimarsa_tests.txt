@@ -1,0 +1,6 @@
+energy drift (3000 steps, loop off): 2.21e-04
+full   V1a tracking = +0.037 ± 0.001 | V1b causal = +1.489 ± 0.007
+cut    V1a tracking = +0.000 ± 0.000 | V1b causal = +1.944 ± 0.011
+decoy  V1a tracking = +0.000 ± 0.000 | V1b causal = +0.291 ± 0.103
+V3 without efference copy: max state difference self vs external = 0.00e+00
+V3 with efference copy: prediction error self = 0.00e+00, external = 1.60e-03 (min external 1.15e-03)

@@ -1,0 +1,10 @@
+# Install PyTorch first, matching your hardware: https://pytorch.org/get-started/locally/
+torch>=2.2
+transformers>=4.45
+safetensors
+huggingface_hub
+scikit-learn
+scipy
+pandas
+pyarrow
+numpy>=1.24

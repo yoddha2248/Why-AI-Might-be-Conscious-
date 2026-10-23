@@ -1,0 +1,56 @@
+{
+ "part1": {
+  "fed": 0.0,
+  "paste": 0.0007781982421875,
+  "typical_activation": 0.8463513910770416
+ },
+ "table": [
+  {
+   "scorer": "target (self)",
+   "auroc_fluent": "0.598 [0.536-0.659]",
+   "auroc_offctx": "0.973 [0.959-0.985]",
+   "spearman_with_self": "1.000",
+   "max_abs_diff_from_self": "0.00e+00"
+  },
+  {
+   "scorer": "copy (full access)",
+   "auroc_fluent": "0.598 [0.536-0.659]",
+   "auroc_offctx": "0.973 [0.959-0.985]",
+   "spearman_with_self": "1.000",
+   "max_abs_diff_from_self": "0.00e+00"
+  },
+  {
+   "scorer": "naive (gpt2 small)",
+   "auroc_fluent": "0.565 [0.502-0.630]",
+   "auroc_offctx": "0.959 [0.943-0.973]",
+   "spearman_with_self": "0.982",
+   "max_abs_diff_from_self": "7.23e+00"
+  },
+  {
+   "scorer": "distilled, 0 epochs",
+   "auroc_fluent": "0.550 [0.485-0.614]",
+   "auroc_offctx": "0.946 [0.926-0.964]",
+   "spearman_with_self": "0.964",
+   "max_abs_diff_from_self": "7.40e+00"
+  },
+  {
+   "scorer": "distilled, 1 epoch",
+   "auroc_fluent": "0.548 [0.484-0.614]",
+   "auroc_offctx": "0.947 [0.927-0.965]",
+   "spearman_with_self": "0.964",
+   "max_abs_diff_from_self": "7.54e+00"
+  },
+  {
+   "scorer": "distilled, 3 epochs",
+   "auroc_fluent": "0.555 [0.491-0.620]",
+   "auroc_offctx": "0.950 [0.929-0.968]",
+   "spearman_with_self": "0.958",
+   "max_abs_diff_from_self": "1.10e+01"
+  }
+ ],
+ "counts": {
+  "self": 240,
+  "offctx": 237,
+  "fluent": 166
+ }
+}

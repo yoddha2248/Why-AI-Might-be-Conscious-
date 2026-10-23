@@ -1,0 +1,12 @@
+events: 400 (193 self)
+ablated fraction k:  0.00   0.10   0.25   0.50   0.75   0.86   0.90
+none               0.49   0.47   0.49   0.53   0.49   0.51   0.51
+single             1.00   0.95   0.86   0.75   0.63   0.58   0.54
+replicated         1.00   1.00   1.00   1.00   1.00   1.00   1.00
+shamir             1.00   1.00   1.00   1.00   1.00   1.00   0.50
+
+best single-node accuracy (redundancy check):
+  none       0.55
+  single     1.00
+  replicated 1.00
+  shamir     0.56

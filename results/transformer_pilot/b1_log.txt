@@ -1,0 +1,21 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[     2s] Part 1: exact-zero check
+[    59s]   max |self - fed| = 0.0 | max |self - pasted| = 0.0007781982421875 | typical |activation| = 0.846
+[    59s] Part 2: target continuations and insertions
+[  1196s]   items: {'self': 240, 'offctx': 237, 'fluent': 166}
+[  1501s] Part 3: outsiders
+[  1929s]   generating target outputs on held-out prompts for distillation
+[  2502s]   distillation set: 400 continuations
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+[  2723s]   epoch 1 last loss 3.036
+[  2941s]   epoch 2 last loss 2.707
+[  3099s]   epoch 3 last loss 2.533
+
+             scorer        auroc_fluent        auroc_offctx spearman_with_self max_abs_diff_from_self
+      target (self) 0.598 [0.536-0.659] 0.973 [0.959-0.985]              1.000               0.00e+00
+ copy (full access) 0.598 [0.536-0.659] 0.973 [0.959-0.985]              1.000               0.00e+00
+ naive (gpt2 small) 0.565 [0.502-0.630] 0.959 [0.943-0.973]              0.982               7.23e+00
+distilled, 0 epochs 0.550 [0.485-0.614] 0.946 [0.926-0.964]              0.964               7.40e+00
+ distilled, 1 epoch 0.548 [0.484-0.614] 0.947 [0.927-0.965]              0.964               7.54e+00
+distilled, 3 epochs 0.555 [0.491-0.620] 0.950 [0.929-0.968]              0.958               1.10e+01
+[  3208s] done

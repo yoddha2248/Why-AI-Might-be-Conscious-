@@ -1,0 +1,7 @@
+.venv/
+.hf_cache/
+__pycache__/
+*.pkl
+*.tmp
+results/transformer_pilot/smoke/
+*_stderr.txt

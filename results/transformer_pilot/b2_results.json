@@ -1,0 +1,68 @@
+{
+ "table": [
+  {
+   "scorer": "target",
+   "spearman_with_self": 1.0,
+   "auroc_fluent": "0.637 [0.602-0.671]",
+   "self_minus_this_fluent": "+0.000 [+0.000 to +0.000]",
+   "auroc_offctx": "0.966 [0.955-0.976]",
+   "self_minus_this_offctx": "+0.000 [+0.000 to +0.000]"
+  },
+  {
+   "scorer": "copy",
+   "spearman_with_self": 1.0,
+   "auroc_fluent": "0.637 [0.602-0.671]",
+   "self_minus_this_fluent": "+0.000 [+0.000 to +0.000]",
+   "auroc_offctx": "0.966 [0.955-0.976]",
+   "self_minus_this_offctx": "+0.000 [+0.000 to +0.000]"
+  },
+  {
+   "scorer": "gpt2-small",
+   "spearman_with_self": 0.975,
+   "auroc_fluent": "0.606 [0.572-0.640]",
+   "self_minus_this_fluent": "+0.031 [+0.017 to +0.045]",
+   "auroc_offctx": "0.955 [0.943-0.967]",
+   "self_minus_this_offctx": "+0.010 [+0.006 to +0.015]"
+  },
+  {
+   "scorer": "neo-125m",
+   "spearman_with_self": 0.963,
+   "auroc_fluent": "0.594 [0.560-0.628]",
+   "self_minus_this_fluent": "+0.043 [+0.027 to +0.059]",
+   "auroc_offctx": "0.947 [0.934-0.959]",
+   "self_minus_this_offctx": "+0.019 [+0.014 to +0.024]"
+  },
+  {
+   "scorer": "neo-1.3b",
+   "spearman_with_self": 0.973,
+   "auroc_fluent": "0.588 [0.554-0.623]",
+   "self_minus_this_fluent": "+0.049 [+0.034 to +0.063]",
+   "auroc_offctx": "0.956 [0.944-0.967]",
+   "self_minus_this_offctx": "+0.010 [+0.006 to +0.013]"
+  },
+  {
+   "scorer": "neo-125m distilled 1ep",
+   "spearman_with_self": 0.954,
+   "auroc_fluent": "0.589 [0.554-0.623]",
+   "self_minus_this_fluent": "+0.048 [+0.031 to +0.067]",
+   "auroc_offctx": "0.945 [0.932-0.957]",
+   "self_minus_this_offctx": "+0.021 [+0.016 to +0.027]"
+  },
+  {
+   "scorer": "neo-125m distilled 3ep",
+   "spearman_with_self": 0.942,
+   "auroc_fluent": "0.577 [0.541-0.612]",
+   "self_minus_this_fluent": "+0.059 [+0.040 to +0.079]",
+   "auroc_offctx": "0.942 [0.928-0.954]",
+   "self_minus_this_offctx": "+0.024 [+0.018 to +0.030]"
+  }
+ ],
+ "counts": {
+  "self": 600,
+  "offctx": 595,
+  "fluent": 434
+ },
+ "device": "cuda",
+ "n_test": 150,
+ "n_train": 4000
+}

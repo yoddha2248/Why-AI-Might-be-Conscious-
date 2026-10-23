@@ -1,0 +1,10 @@
+self-twin anchor gap after burn-in: median 0.0021 rad (range 0.0001-0.0040)
+
+Re-recognition accuracy (200 trials per level; 0.50 = chance)
+                 self-raw    self-efcopy       outsider  outsider+rule
+rings                0.48           1.00           0.47           1.00
+partial              0.53           0.57           0.54           0.57
+total                0.49           0.47           0.49           0.47
+
+outsider anchor-reading error at rest: median 1.61e-04 rad
+per-trial agreement, self-efcopy vs outsider+rule: {'rings': np.float64(1.0), 'partial': np.float64(1.0), 'total': np.float64(1.0)}
