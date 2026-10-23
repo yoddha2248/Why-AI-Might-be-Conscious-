@@ -1,6 +1,6 @@
-# Third-person symmetry
+# Why AI Might Be Conscious — and Why No Test Can Yet Tell
 
-**Stress-testing self-model indicators of consciousness with cheats and outside observers.**
+**Code, results and essay: stress-testing self-model indicators of consciousness with cheats and outside observers.**
 
 Proposed indicators of consciousness in AI often include self-related capacities: monitoring
 one's own state, telling self-caused changes from external ones, predicting oneself,
@@ -8,8 +8,7 @@ recognising one's own past. This repository tests whether such indicators can te
 that has these capacities from one that only imitates them. For every test it builds the
 cheapest cheat it can find and an outside observer, then asks whether either passes too.
 
-Released with the essay [*Why AI Might Be Conscious — and Why No Test Can Yet Tell*](essay/essay.md)
-(also as [PDF](essay/Why_AI_Might_Be_Conscious.pdf)), a response to Seth, Block & Tononi, "Three reasons why AI is not
+Read the [essay](essay/essay.md) (also as [PDF](essay/Why_AI_Might_Be_Conscious.pdf)). It is a response to Seth, Block & Tononi, "Three reasons why AI is not
 conscious and perhaps never will be", *Nature* 658, 866–868 (2026).
 
 ## Findings
